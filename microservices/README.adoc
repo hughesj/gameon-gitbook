@@ -52,7 +52,7 @@ provider using the proper credentials. Many redirects later, we get a callback
 from the OAuth provider letting us know that you authenticated properly. We then
 {security}[sign a JWT], which is passed back to the client/webapp.
 
-Auth declares itself as an Amalgam8 service on startup, allowing it's discovery by
+Auth declares itself as an Amalgam8 service on startup, allowing its discovery by
 other services, such as the Proxy/Gateway. Currently Auth makes its calls to the
 social login services directly, but we plan to direct these calls through Amalgam8
 to better enable testing, and simulate remote failures.
